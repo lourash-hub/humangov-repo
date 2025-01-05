@@ -1,0 +1,73 @@
+node_modules
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Packages #
+############
+# it's better to exclude the package directories and just include the package configuration files
+**/node_modules/
+**/jspm_packages/
+
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor directories and files #
+################################
+.idea/
+*.sublime-workspace
+*.sublime-project
+.vscode/
+*.swp
+*.swo
+actions-runner/_work/word-formatter/word-formatter/
+
+# Dependency directories (commented out by default) #
+#####################################################
+# node_modules/
+# jspm_packages/
+
+# Specific large files #
+########################
+# Replace 'largefile' with the specific large file you want to exclude
+# largefile
+
+# Ansible Collections #
+#######################
+**/ansible_collections/
+
+# Terraform plugin cache directory #
+####################################
+.terraform/*
+/home/lourash/human-gov-infrastructure/src/terraform.tfstate
+/home/lourash/human-gov-infrastructure/Terraform/.terraform/terraform.tfstate
+# Ignore Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Ignore Terraform plan files
+*.tfplan
+
+# Ignore auto-generated large Terraform files
+auto_*.tf
+
+# Ignore specific directories containing large files
+large_terraform_files/
