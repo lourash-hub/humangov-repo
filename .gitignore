@@ -71,3 +71,5 @@ auto_*.tf
 
 # Ignore specific directories containing large files
 large_terraform_files/
+# Ignore entire directory
+Terraform/.terraform/**
